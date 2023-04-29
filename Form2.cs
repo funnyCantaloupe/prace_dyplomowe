@@ -15,6 +15,15 @@ namespace prace_dyplomowe
         public Form2()
         {
             InitializeComponent();
+            InitializeForm();
+           
+            
+
+        }
+
+        private void InitializeForm()
+        {
+            
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -38,6 +47,11 @@ namespace prace_dyplomowe
         }
 
         private void label36_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox32_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -6,7 +6,7 @@ namespace prace_dyplomowe
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        public System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -19,7 +19,11 @@ namespace prace_dyplomowe
                 components.Dispose();
             }
             base.Dispose(disposing);
+
+
         }
+
+
 
         #region Windows Form Designer generated code
 
@@ -27,7 +31,7 @@ namespace prace_dyplomowe
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -96,8 +100,6 @@ namespace prace_dyplomowe
             this.label34 = new System.Windows.Forms.Label();
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.label36 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
@@ -106,6 +108,8 @@ namespace prace_dyplomowe
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.textBox35 = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.textBox32 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -653,23 +657,6 @@ namespace prace_dyplomowe
             this.label35.Text = "Przewodniczący";
             this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
-            // textBox32
-            // 
-            this.textBox32.Location = new System.Drawing.Point(724, 52);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(125, 27);
-            this.textBox32.TabIndex = 69;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(724, 23);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(77, 20);
-            this.label36.TabIndex = 70;
-            this.label36.Text = "Recenzent";
-            this.label36.Click += new System.EventHandler(this.label36_Click);
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -735,11 +722,29 @@ namespace prace_dyplomowe
             this.label39.TabIndex = 78;
             this.label39.Text = "Zadane pytania";
             // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(732, 23);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(77, 20);
+            this.label36.TabIndex = 79;
+            this.label36.Text = "Recenzent";
+            // 
+            // textBox32
+            // 
+            this.textBox32.Location = new System.Drawing.Point(732, 52);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(125, 27);
+            this.textBox32.TabIndex = 80;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(875, 621);
+            this.Controls.Add(this.textBox32);
+            this.Controls.Add(this.label36);
             this.Controls.Add(this.label39);
             this.Controls.Add(this.textBox35);
             this.Controls.Add(this.textBox34);
@@ -748,8 +753,6 @@ namespace prace_dyplomowe
             this.Controls.Add(this.label37);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.textBox32);
             this.Controls.Add(this.label35);
             this.Controls.Add(this.textBox31);
             this.Controls.Add(this.label34);
@@ -827,82 +830,84 @@ namespace prace_dyplomowe
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.Label label39;
+        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox textBox5;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.TextBox textBox6;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.TextBox textBox7;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.TextBox textBox8;
+        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.TextBox textBox9;
+        public System.Windows.Forms.Label label10;
+        public System.Windows.Forms.TextBox textBox10;
+        public System.Windows.Forms.Label label11;
+        public System.Windows.Forms.TextBox textBox11;
+        public System.Windows.Forms.Label label13;
+        public System.Windows.Forms.Label label14;
+        public System.Windows.Forms.Label label15;
+        public System.Windows.Forms.Label label16;
+        public System.Windows.Forms.TextBox textBox13;
+        public System.Windows.Forms.Label label17;
+        public System.Windows.Forms.Label label18;
+        public System.Windows.Forms.TextBox textBox14;
+        public System.Windows.Forms.Label label19;
+        public System.Windows.Forms.TextBox textBox15;
+        public System.Windows.Forms.Label label20;
+        public System.Windows.Forms.TextBox textBox16;
+        public System.Windows.Forms.Label label21;
+        public System.Windows.Forms.Label label22;
+        public System.Windows.Forms.Label label23;
+        public System.Windows.Forms.Label label24;
+        public System.Windows.Forms.TextBox textBox17;
+        public System.Windows.Forms.TextBox textBox18;
+        public System.Windows.Forms.TextBox textBox19;
+        public System.Windows.Forms.TextBox textBox20;
+        public System.Windows.Forms.Label label25;
+        public System.Windows.Forms.TextBox textBox21;
+        public System.Windows.Forms.TextBox textBox22;
+        public System.Windows.Forms.Label label26;
+        public System.Windows.Forms.Label label27;
+        public System.Windows.Forms.TextBox textBox23;
+        public System.Windows.Forms.Label label28;
+        public System.Windows.Forms.TextBox textBox24;
+        public System.Windows.Forms.TextBox textBox25;
+        public System.Windows.Forms.Label label29;
+        public System.Windows.Forms.Label label30;
+        public System.Windows.Forms.TextBox textBox26;
+        public System.Windows.Forms.Label label31;
+        public System.Windows.Forms.TextBox textBox27;
+        public System.Windows.Forms.Label label32;
+        public System.Windows.Forms.TextBox textBox28;
+        public System.Windows.Forms.TextBox textBox29;
+        public System.Windows.Forms.Label label33;
+        public System.Windows.Forms.TextBox textBox30;
+        public System.Windows.Forms.Label label34;
+        public System.Windows.Forms.TextBox textBox31;
+        public System.Windows.Forms.Label label35;
+        public System.Windows.Forms.Label label12;
+        public System.Windows.Forms.TextBox textBox12;
+        public System.Windows.Forms.Label label37;
+        public System.Windows.Forms.TextBox textBox33;
+        public System.Windows.Forms.Label label38;
+        public System.Windows.Forms.TextBox textBox34;
+        public System.Windows.Forms.TextBox textBox35;
+        public System.Windows.Forms.Label label39;
         public System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label36;
+        public System.Windows.Forms.Label label36;
+        public System.Windows.Forms.TextBox textBox32;
     }
+
+
 }
