@@ -1,4 +1,5 @@
-﻿
+﻿using System.Xml;
+
 namespace prace_dyplomowe
 {
     partial class Form2
@@ -43,7 +44,6 @@ namespace prace_dyplomowe
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -195,14 +195,6 @@ namespace prace_dyplomowe
             this.button2.Text = "Odczyt";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(212, 580);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 28);
-            this.comboBox1.TabIndex = 10;
             // 
             // label5
             // 
@@ -655,7 +647,6 @@ namespace prace_dyplomowe
             this.label35.Size = new System.Drawing.Size(114, 20);
             this.label35.TabIndex = 68;
             this.label35.Text = "Przewodniczący";
-            this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
             // label12
             // 
@@ -809,7 +800,6 @@ namespace prace_dyplomowe
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
@@ -839,7 +829,6 @@ namespace prace_dyplomowe
         public System.Windows.Forms.TextBox textBox4;
         public System.Windows.Forms.Button button1;
         public System.Windows.Forms.Button button2;
-        public System.Windows.Forms.ComboBox comboBox1;
         public System.Windows.Forms.Label label5;
         public System.Windows.Forms.TextBox textBox5;
         public System.Windows.Forms.Label label6;

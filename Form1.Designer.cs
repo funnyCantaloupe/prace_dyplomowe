@@ -1,4 +1,5 @@
-﻿
+﻿using System.Xml;
+
 namespace prace_dyplomowe
 {
     partial class Form1
